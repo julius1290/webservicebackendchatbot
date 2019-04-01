@@ -13,6 +13,7 @@ public class TeamLookupTable {
 
     private void setTable() {
         teamLookup.clear();
+        //First League
         teamLookup.put("FC Augsburg", "133652");
         teamLookup.put("Hertha BSC", "133658");
         teamLookup.put("SV Werder Bremen", "133662");
@@ -31,6 +32,27 @@ public class TeamLookupTable {
         teamLookup.put("VfB Stuttgart", "133660");
         teamLookup.put("VfL Wolfsburg", "133655");
         teamLookup.put("FC Schalke 04", "133661");
+
+        //Second League
+        teamLookup.put("FC Erzgebirge Aue", "134445");
+        teamLookup.put("1. FC Union Berlin", "134690");
+        teamLookup.put("DSC Arminia Bielefeld", "133852");
+        teamLookup.put("VfL Bochum 1848", "133839");
+        teamLookup.put("SV Darmstadt 98", "134693");
+        teamLookup.put("SG Dynamo Dresden", "135655");
+        teamLookup.put("MSV Duisburg", "133877");
+        teamLookup.put("SpVgg Greuther Fürth", "134099");
+        teamLookup.put("Hamburger SV", "133651");
+        teamLookup.put("1. FC Heidenheim 1846", "134696");
+        teamLookup.put("FC Ingolstadt 04", "134694");
+        teamLookup.put("Holstein Kiel", "136027");
+        teamLookup.put("1. FC Köln", "133654");
+        teamLookup.put("1. FC Magdeburg", "136194");
+        teamLookup.put("SC Paderborn 07", "134551");
+        teamLookup.put("FC St. Pauli", "133813");
+        teamLookup.put("SSV Jahn Regensburg", "136026");
+        teamLookup.put("SV Sandhausen", "134691");
+
 
 
     }

@@ -26,7 +26,6 @@ public class ResultService {
 
     public ReturnEntity getLastResultByTeam(RequestBodyObj teamRequest) {
 
-        System.out.println(teamRequest.getStatus().getCode());
         String teamName = teamRequest.getResult().getParameters().getTeams();
         lookupTable = teamLookupTable.getTable();
         ReturnEntity returnEntity = new ReturnEntity();
